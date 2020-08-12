@@ -1,0 +1,142 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlicloudPush (1.9.8):
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.5):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.1.0.19)
+  - AlicloudUtils (1.3.6):
+    - AlicloudUTDID
+  - AliyunOSSiOS (2.10.7)
+  - AMap2DMap-NO-IDFA (5.6.1):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.5.6)
+  - AMapLocation-NO-IDFA (2.6.1):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (6.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - CocoaAsyncSocket (7.6.3)
+  - DACircularProgress (2.3.1)
+  - DZNEmptyDataSet (1.8.1)
+  - FSCalendar (2.8.0)
+  - Kingfisher (5.1.0)
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (2.0.0):
+    - KTVCocoaHTTPServer
+  - LGAlertView (2.4.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.15.7)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - ObjectMapper (3.4.2)
+  - PhotoTweaks (1.0.3)
+  - Result (4.1.0)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyStoreKit (0.14.2)
+  - TZImagePickerController (3.1.9)
+  - XLPagerTabStrip (8.1.1)
+
+DEPENDENCIES:
+  - AlicloudPush (~> 1.9.8)
+  - AliyunOSSiOS (~> 2.10.7)
+  - AMap2DMap-NO-IDFA (~> 5.6.1)
+  - AMapFoundation-NO-IDFA (~> 1.5.6)
+  - AMapLocation-NO-IDFA (~> 2.6.1)
+  - AMapSearch-NO-IDFA (~> 6.6.0)
+  - DZNEmptyDataSet (~> 1.8.1)
+  - FSCalendar (~> 2.8.0)
+  - Kingfisher (~> 5.1.0)
+  - KTVHTTPCache (~> 2.0.0)
+  - LGAlertView (~> 2.4.0)
+  - MJRefresh (~> 3.1.15.7)
+  - Moya (~> 12.0.1)
+  - MWPhotoBrowser (~> 2.1.2)
+  - ObjectMapper (~> 3.4.2)
+  - PhotoTweaks (~> 1.0.3)
+  - SDCycleScrollView (~> 1.65)
+  - SwiftyStoreKit (~> 0.14.2)
+  - TZImagePickerController (~> 3.1.9)
+  - XLPagerTabStrip (~> 8.1.1)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudPush
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AliyunOSSiOS
+    - AMap2DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - CocoaAsyncSocket
+    - DACircularProgress
+    - DZNEmptyDataSet
+    - FSCalendar
+    - Kingfisher
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
+    - LGAlertView
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - MWPhotoBrowser
+    - ObjectMapper
+    - PhotoTweaks
+    - Result
+    - SDCycleScrollView
+    - SDWebImage
+    - SwiftyStoreKit
+    - TZImagePickerController
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlicloudPush: 3bdd90f69af50562275483b5157571f0a7c50a19
+  AlicloudUT: 5e6a87a56c08ca72c6711beec2449e1c254728ef
+  AlicloudUTDID: 79f509c3e997ef85fe307f8bfb2bb3be27f7e205
+  AlicloudUtils: 9047114c9c1854205ae26db58264bf1555242ffb
+  AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
+  AMap2DMap-NO-IDFA: ccecb3e2a044c17e6badb9b91c950e709368be20
+  AMapFoundation-NO-IDFA: 40d723b352992d0f95abe2976f0c0ecda3c3ffc3
+  AMapLocation-NO-IDFA: ffd69b8b88f553d0b252d4967bf301ad2afff9c0
+  AMapSearch-NO-IDFA: 07651afae010f7acda12beb1f2c0f45d29069e75
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  Kingfisher: fcec238063d17404fca89bf0a850583211c4cbf6
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: d794fc52c7df58ec7991e0ac4dfe1c938c99bfd8
+  LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PhotoTweaks: 17a448f451872fd9c3cc65ec5ca125ccd1b48d11
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyStoreKit: cc399645796b094022fb650c148a0aed25995873
+  TZImagePickerController: c3f7c505d23281e21e98df6dbeae372946caa28f
+  XLPagerTabStrip: 63166e21c9844fa30f2d95d30f335e73be5caf22
+
+PODFILE CHECKSUM: ef53cc64e9bb146d1d3c769e9a1dded81a39dbd6
+
+COCOAPODS: 1.5.3
